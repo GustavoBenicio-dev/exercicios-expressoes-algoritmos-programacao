@@ -6,34 +6,7 @@ Este repositório contém a resolução de cinco exercícios práticos sobre exp
 
 ## Estrutura do Repositório
 
-Os códigos estão organizados em pastas individuais para cada exercício, contendo os três arquivos fonte:
-
-exercicios-expressoes-algoritmos-programacao/
-├── ex1_calculo_media/
-│ ├── main.py
-│ ├── Main.java
-│ └── main.cpp
-├── ex2_calculo_preco_desconto/
-│ ├── main.py
-│ ├── Main.java
-│ └── main.cpp
-├── ex3_conversao_temperaturas/
-│ ├── main.py
-│ ├── Main.java
-│ └── main.cpp
-├── ex4_media_ponderada_situacao/
-│ ├── main.py
-│ ├── Main.java
-│ └── main.cpp
-├── ex5_consumo_combustivel_validacao/
-│ ├── main.py
-│ ├── Main.java
-│ └── main.cpp
-└── README.md
-text
-
-
----
+Os códigos estão organizados em pastas individuais para cada exercício, contendo os três arquivos fonte
 
 ## Conceitos Aplicados
 
