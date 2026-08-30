@@ -2,9 +2,38 @@
 
 Este repositório contém a resolução de cinco exercícios práticos sobre expressões aritméticas, relacionais e lógicas, aplicando os conceitos de precedência, associatividade, conversão de tipos e entrada/saída de dados. Cada exercício foi implementado nas linguagens Python, Java e C++, conforme orientado no material didático.
 
+---
+
 ## Estrutura do Repositório
 
-Os códigos estão organizados em pastas individuais para cada exercício, contendo os três arquivos fonte
+Os códigos estão organizados em pastas individuais para cada exercício, contendo os três arquivos fonte:
+
+exercicios-expressoes-algoritmos-programacao/
+├── ex1_calculo_media/
+│ ├── main.py
+│ ├── Main.java
+│ └── main.cpp
+├── ex2_calculo_preco_desconto/
+│ ├── main.py
+│ ├── Main.java
+│ └── main.cpp
+├── ex3_conversao_temperaturas/
+│ ├── main.py
+│ ├── Main.java
+│ └── main.cpp
+├── ex4_media_ponderada_situacao/
+│ ├── main.py
+│ ├── Main.java
+│ └── main.cpp
+├── ex5_consumo_combustivel_validacao/
+│ ├── main.py
+│ ├── Main.java
+│ └── main.cpp
+└── README.md
+text
+
+
+---
 
 ## Conceitos Aplicados
 
@@ -18,30 +47,33 @@ Todos os exercícios foram desenvolvidos com base nos seguintes tópicos:
 - Entrada de dados via teclado e saída formatada.
 - Estruturas condicionais para tomada de decisão baseada em expressões booleanas.
 
+---
+
 ## Como Executar
 
 ### Python
 
 Navegue até a pasta do exercício desejado e execute:
 
-Python
-```bash
 python main.py
 
 Java
+
 Compile e execute o arquivo Main.java:
 bash
+
 javac Main.java
 java Main
 
 C++
+
 Compile e execute o arquivo main.cpp:
 bash
+
 g++ main.cpp -o main
 ./main
 
-Descrição dos Exercícios:
-
+Descrição dos Exercícios
 Exercício 1 – Cálculo de Média Aritmética
 
 Enunciado:
@@ -74,13 +106,14 @@ Exercício 3 – Conversão de Temperaturas
 
 Enunciado:
 Leia uma temperatura em graus Celsius e converta para Fahrenheit utilizando a fórmula:
-F = C × 9/5 + 32.
+
+F = C × 9/5 + 32
 
 Conceitos aplicados:
 
     Expressão aritmética com múltiplos operadores.
 
-    Parênteses para tornar a intenção explícita ((celsius * 9 / 5) + 32).
+    Parênteses para tornar a intenção explícita: (celsius * 9 / 5) + 32.
 
     Associatividade da multiplicação e divisão (esquerda para direita).
 
@@ -88,7 +121,9 @@ Exercício 4 – Média Ponderada com Situação
 
 Enunciado:
 Leia três notas e seus respectivos pesos. Calcule a média ponderada conforme a fórmula:
-(n1×p1 + n2×p2 + n3×p3) / (p1 + p2 + p3).
+
+(n1×p1 + n2×p2 + n3×p3) / (p1 + p2 + p3)
+
 Após o cálculo, informe a situação do estudante:
 
     Aprovado se média ≥ 7,0.
@@ -116,7 +151,7 @@ Leia a distância percorrida (km), a quantidade de litros consumidos e o preço 
 
     Custo por km = custo total / distância.
 
-Antes de calcular, valide se todos os valores são positivos e se distância e litros são diferentes de zero. Utilize expressões relacionais e lógicas para a validação.
+Antes de calcular, valide se todos os valores são positivos e se distância e litros são diferentes de zero.
 
 Conceitos aplicados:
 
@@ -125,5 +160,3 @@ Conceitos aplicados:
     Expressões relacionais (>, !=) combinadas com operadores lógicos (&& ou and).
 
     Estrutura condicional para exibir mensagem de erro caso os dados sejam inválidos.
-
-    Cálculo das três métricas com base em expressões aritméticas.
